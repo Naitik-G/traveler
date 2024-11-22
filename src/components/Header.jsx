@@ -21,19 +21,7 @@ export default function Header() {
             />
           </Link>
 
-          <button
-            className="lg:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            <svg
-              className={`w-6 h-6 fill-current text-gray-500 ${
-                isMenuOpen ? "" : "hidden"
-              }`}
-              viewBox="0 0 24 24"
-            >
-              <path d="M4.293 5.293a1 1 0 011.414 0L12 11.586l6.293-6.293a1 1 0 111.414 1.414L13.414 13l6.293 6.293a1 1 0 01-1.414 1.414L12 14.414l-6.293 6.293a1 1 0 01-1.414-1.414L10.586 13 4.293 6.707a1 1 0 010-1.414z" />
-            </svg>
-          </button>
+        
 
           <div
             className={`${

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 function Contact() {
 

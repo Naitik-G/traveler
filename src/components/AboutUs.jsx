@@ -79,7 +79,8 @@ function AboutUs() {
             <p className="mt-3 text-sm text-gray-700 text-center p-4 font-Montserrat">{service.description}</p>
           </div>
         ))}
-      </div>
+      </div>y
+      
     </div>
   );
 }
