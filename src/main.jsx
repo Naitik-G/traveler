@@ -6,7 +6,7 @@ import App from './App.jsx'
 import Sections from './Sections.jsx'
 import France from './components/Accommodations/France.jsx'
 import India from './components/Accommodations/India.jsx'
-import Japan from './components/Accommodations/japan.jsx'
+import Japan from './components/Accommodations/Japan.jsx'
 
 const router = createBrowserRouter([
   {
